@@ -37,6 +37,6 @@ fin_img(:,:,1) = R;
 fin_img(:,:,2) = G;
 fin_img(:,:,3) = B;
 
-file_out = './encr_img.png';
+file_out = './encr_img.jpg';
 imwrite(fin_img, file_out);
 
